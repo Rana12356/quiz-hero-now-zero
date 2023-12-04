@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-100">
+    <header class="mt-5">
+        <h1 class="text-5xl text-center text-orange-600">We will display all the blogs here.</h1>
+    </header>
+    <main class="mt-8">
+        <section>
+            <article class="w-9/12 bg-sky-300 mx-auto p-5 rounded-xl">
+                <h1 class="text-4xl mb-4">Difference between Map, forEach, Filter And Find</h1>
+                <ul class="list-disc list-inside">
+                    <li>map() will return a new array as per the conditions applied.</li>
+                    <li>forEach() will not return anything. forEach() returns undefined.</li>
+                    <li>filter() method will return an array of matching elements else will return an empty array if no matching happens.</li>
+                    <li>find() will return a single first matching elements according to the condition.</li>
+                </ul>
+            </article>
+            <article class="w-9/12 mt-5 bg-purple-300 mx-auto p-5 rounded-xl">
+                <h1 class="text-4xl mb-4">Difference between Local Storage, Session Storage And Cookie</h1>
+                <ul class="list-disc list-inside">
+                    <li>local Storage stores up to 10 megabytes. Local storage expire never.</li>
+                    <li>session storage stores up to 5 megabytes. Session storage expire on a tab close.</li>
+                    <li>Cookies can store very less 4 kilobytes of data. Cookies are manually set.</li>
+                </ul>
+            </article>
+            <article class="w-9/12 mt-5 mb-3 bg-amber-300 mx-auto p-5 rounded-xl">
+                <h1 class="text-4xl mb-4">What is event loop and how it is works.</h1>
+                <p>event loop works in a cyclic manner, where it continually checks whether or not the call stack is empty. If it is empty, new functions are added from the event queue. If it is not, then the current function call is processed.</p>
+            </article>
+        </section>
+    </main>
+
+</body>
+</html>
